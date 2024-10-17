@@ -285,7 +285,7 @@ def parse_args():
     parser.add_argument("--adam_weight_decay", type=float, default=1e-2, help="Weight decay to use.")
     parser.add_argument("--adam_epsilon", type=float, default=1e-08, help="Epsilon value for the Adam optimizer")
     parser.add_argument("--local_rank", type=int, default=-1, help="For distributed training: local_rank")
-    parser.add_argument("--data_dir", type=str, default="/home/omnious/workspace/yisol/Dataset/VITON-HD/zalando", help="For distributed training: local_rank")
+    parser.add_argument("--data_dir", type=str, default="./VITON-HD", help="For distributed training: local_rank")
     
     args = parser.parse_args()
     env_local_rank = int(os.environ.get("LOCAL_RANK", -1))
