@@ -13,7 +13,7 @@
 
 import os
 import torch
-import modules
+from .. import modules
 
 def moving_average(net1, net2, alpha=1):
     for param1, param2 in zip(net1.parameters(), net2.parameters()):

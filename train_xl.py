@@ -13,9 +13,9 @@ from accelerate.utils import ProjectConfiguration
 from diffusers import AutoencoderKL, DDPMScheduler
 from transformers import CLIPTextModel, CLIPTokenizer, CLIPVisionModelWithProjection, CLIPTextModelWithProjection
 
-from src.unet_hacked_tryon import UNet2DConditionModel
-from src.unet_hacked_garmnet import UNet2DConditionModel as UNet2DConditionModel_ref
-from src.tryon_pipeline import StableDiffusionXLInpaintPipeline as TryonPipeline
+from idm_vton.src.unet_hacked_tryon import UNet2DConditionModel
+from idm_vton.src.unet_hacked_garmnet import UNet2DConditionModel as UNet2DConditionModel_ref
+from idm_vton.src.tryon_pipeline import StableDiffusionXLInpaintPipeline as TryonPipeline
 
 from ip_adapter.ip_adapter import Resampler
 from diffusers.utils.import_utils import is_xformers_available

@@ -4,7 +4,7 @@ import json
 import os
 from PIL import Image
 
-import pycococreatortools
+from . import pycococreatortools
 
 
 def get_arguments():

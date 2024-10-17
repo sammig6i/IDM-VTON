@@ -13,7 +13,7 @@
 import torch
 import torch.nn.functional as F
 from torch import nn
-from datasets.target_generation import generate_edge_tensor
+from ..datasets.target_generation import generate_edge_tensor
 
 
 class ConsistencyLoss(nn.Module):

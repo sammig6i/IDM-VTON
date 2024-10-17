@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "idm-vton"
+version = "0.1.0"
+description = "IDM-VTON package"
+authors = []
+packages = [{include = "idm_vton"}, {include = "preprocess"}, {include = "ip_adapter"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+torch = "2.1.0"
+torchvision = "0.16.0"
+torchaudio = "2.1.0"
+accelerate = "0.25.0"
+torchmetrics = "1.2.1"
+tqdm = "4.66.1"
+transformers = "4.36.2"
+diffusers = "0.25.0"
+einops = "0.7.0"
+bitsandbytes = "0.39.0"
+scipy = "1.11.1"
+opencv-python = "*"
+gradio = "4.24.0"
+fvcore = "*"
+cloudpickle = "*"
+omegaconf = "*"
+pycocotools = "*"
+basicsr = "*"
+av = "*"
+onnxruntime = "1.16.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

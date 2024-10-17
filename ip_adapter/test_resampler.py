@@ -1,5 +1,5 @@
 import torch
-from resampler import Resampler
+from .resampler import Resampler
 from transformers import CLIPVisionModel
 
 BATCH_SIZE = 2
