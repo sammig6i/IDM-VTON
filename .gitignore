@@ -1,1 +1,4 @@
 VITON-HD/ckpt/ip_adapter/ip-adapter-plus_sdxl_vit-h.bin
+/VITON-HD
+*.pyc
+*.png
